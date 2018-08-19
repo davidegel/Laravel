@@ -17,6 +17,13 @@ class Worker
         $result = $this->cache->doSomething();
         return $result;
     }
+
+    public function visualizza()
+    {
+        // Use the cache for something...
+        $result = $this->cache->doSomething();
+        return $result;
+    }
 }
 
 ?>
