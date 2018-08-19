@@ -22,4 +22,18 @@ class UserAccess extends Controller {
             return redirect()->intended('utente/login');
         }
     }
+    
+    /*
+    public function formContatti(Request $request)
+    {
+        $data = $request->only('email','password');
+        if(Auth::attempt($data)) {
+            return redirect()->intended('privata');
+        }else {
+            return redirect()->intended('utente/login');
+        }
+    }
+   */
+
 }
+
