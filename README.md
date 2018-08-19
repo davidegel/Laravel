@@ -1,3 +1,3 @@
 laravel
 acnhe su installazione
-non solo
+non solo altro
